@@ -1,6 +1,6 @@
 # zo-analytic
 
-Steps to run the application
+## Steps to run the application
 1. React Native Environment setup(https://facebook.github.io/react-native/docs/getting-started)
 2. git clone https://github.com/pushpendra-choudhary/zo-analytic.git
 3. cd zo-analytic
@@ -8,10 +8,10 @@ Steps to run the application
 5. `react-native run-android` to run the application in android and `react-native run-ios` to run the application in ios devices
 
 
-Basic Structue Explainantion:
+## Basic Structue Explainantion:
 Folders: 
-    1. app: application source folder
-    2. assets: application assets(custom images/ data) folder
+        1. app: application source folder
+        2. assets: application assets(custom images/ data) folder
 
     app subfolders:
         Action: Redex Actions
