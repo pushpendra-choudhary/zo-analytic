@@ -9,14 +9,14 @@
 
 
 ## Basic Structue Explainantion:
-Folders: 
-        1. app: application source folder
-        2. assets: application assets(custom images/ data) folder
+        Folders: 
+          1. app: application source folder
+          2. assets: application assets(custom images/ data) folder
 
-    app subfolders:
-        Action: Redex Actions
-        AppRoutes: Application Routes(React-Navigation utilised)
-        Config: Configuration(Redux Store available here) folder
-        Modules: Application modules(there are two modules in the app i. Auth ii. analytic)
-        Reducers: Redux Reducers
-        Utils: Utility Folder
+            app subfolders:
+                Action: Redex Actions
+                AppRoutes: Application Routes(React-Navigation utilised)
+                Config: Configuration(Redux Store available here) folder
+                Modules: Application modules(there are two modules in the app i. Auth ii. analytic)
+                Reducers: Redux Reducers
+                Utils: Utility Folder
