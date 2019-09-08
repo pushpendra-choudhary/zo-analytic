@@ -31,19 +31,19 @@ class Analytic extends Component {
     const {pieData = [], ratingData = [], onlineDeliveryData = {}} = this.props;
 
     const PieWithHeader = WithHeader(PieChart, {
-      title: 'Restaurant Price Range',
+      title: '1. Restaurant Price Range',
       description: 'Restaurant Price Range Presentaion using Pie Chart',
       data: pieData,
     });
 
     const BarWithHeader = WithHeader(BarChart, {
-      title: 'Restaurant Rating',
+      title: '2. Restaurant Rating',
       description: 'Restaurant Rating Presentaion using Bar Chart',
       data: ratingData,
     });
 
     const ProgessWithHeader = WithHeader(ProgressChart, {
-      title: 'Restaurant: Online Delivery Availibilty',
+      title: '3. Restaurant: Online Delivery Availibilty',
       description:
         'Restaurant Online Delivery Availibilty Presentaion using Progress Line',
       data: onlineDeliveryData,

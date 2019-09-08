@@ -13,7 +13,12 @@ export default function Header(props) {
           Logout{' '}
         </Text>
       </View>
-      <Separator />
+      <Separator
+        // eslint-disable-next-line react-native/no-inline-styles
+        customStyle={{
+          marginTop: 0,
+        }}
+      />
     </>
   );
 }
