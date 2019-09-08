@@ -85,12 +85,9 @@ const analyticReducer = (state = initialState, action) => {
       return {
         ...state,
         loading: false,
-        pieData: [...state.pieData, ..._priceRange],
-        ratingData: [...state.ratingData, ..._ratingData],
-        onlineDeliveryData: {
-          ...state.onlineDeliveryData,
-          ...onlineDelivery,
-        },
+        pieData: _priceRange,
+        ratingData: _ratingData,
+        onlineDeliveryData: onlineDelivery,
         dataError: '',
       };
     }
